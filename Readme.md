@@ -5,8 +5,8 @@
 **Course :** CS696 - Big Data Tools and Methods
 
 **Team Members:**
-- Shah, Saumil : 82319571
-- Naidu, Indraraj : 823383841
+- Shah, Saumil
+- Naidu, Indraraj
 
 - - - -
 
