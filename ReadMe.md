@@ -93,8 +93,7 @@ python s3://cs696-project-deepsat/project_deepsat_aws.py \
 
 # 4. Additional Libraries
 You can install necessary packages to run these codes by running the following:
-```pip install -r requirements.txt
-```
+```pip install -r requirements.txt```
 
 - - - -
 
