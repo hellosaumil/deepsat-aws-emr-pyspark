@@ -1,0 +1,6 @@
+pandas
+seaborn
+matplotlib
+pyspark
+scikit-learn
+scikit-image

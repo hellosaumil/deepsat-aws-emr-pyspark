@@ -1,0 +1,59 @@
+2019-05-15T11:31:25.773Z INFO Ensure step 2 jar file command-runner.jar
+2019-05-15T11:31:25.773Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar spark-submit --deploy-mode client s3://cs696-project-deepsat/project_deepsat_aws.py -bd s3://cs696-project/ -od s3://cs696-project-deepsat/ -p 200 -t 5'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-2
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-2ZHF7L1VMDHOC/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-10-123
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-2ZHF7L1VMDHOC
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-2ZHF7L1VMDHOC/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-2ZHF7L1VMDHOC/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-2ZHF7L1VMDHOC
+INFO ProcessRunner started child process 18586 :
+hadoop   18586  4641  0 11:31 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar spark-submit --deploy-mode client s3://cs696-project-deepsat/project_deepsat_aws.py -bd s3://cs696-project/ -od s3://cs696-project-deepsat/ -p 200 -t 5
+2019-05-15T11:31:29.792Z INFO HadoopJarStepRunner.Runner: startRun() called for s-2ZHF7L1VMDHOC Child Pid: 18586
+INFO Synchronously wait child process to complete : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO Process still running
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO total process run time: 1458 seconds
+2019-05-15T11:55:46.032Z INFO Step created jobs: 
+2019-05-15T11:55:46.032Z INFO Step succeeded with exitCode 0 and took 1458 seconds
