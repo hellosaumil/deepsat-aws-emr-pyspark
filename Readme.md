@@ -34,6 +34,7 @@ Since, the actual dataset is a space consuming ```(~5.6 GB)```, we have only pro
 
 Following file structure is advised: (in case of errors, please consult this)
 ```
+./
 ... Project-DeepSAT.ipynb
 ... project_deepsat_aws.py
 ... requirements.txt
