@@ -99,5 +99,5 @@ You can install necessary packages to run these codes by running the following:
 - - - -
 
 # 5. Known Issues
-Loading entire dataset on local machine causes```Java Heap Memory ``` issues, hence use small toy dataset with prefix ```_200``` or consult the notebook for more details.
+Loading entire dataset on local machine causes```Java Heap Memory ``` issues, hence use small toy dataset with suffix ```_200``` or consult the notebook for more details.
 - - - -
